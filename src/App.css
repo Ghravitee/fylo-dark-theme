@@ -569,17 +569,21 @@ li > a {
 @media screen and (min-width: 1024px) {
   /* header */
   header {
-    padding: 2rem 3rem;
+    padding: 4rem 3rem;
   }
 
   .fylo {
-    height: 35px;
+    height: 50px;
+  }
+
+  .nav__list {
+    gap: 4rem;
   }
 
   /* intro */
   .intro {
     background-image: url(/src/images/bg-curvy-desktop.svg);
-    background-position: 50% 100%;
+    background-position: 50% 130%;
     background-repeat: no-repeat;
     background-size: contain;
     padding: 2rem 5rem;
